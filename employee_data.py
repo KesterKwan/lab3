@@ -70,6 +70,7 @@ def display_main_menu():
         age_upper_limit=input("Enter age upper range: ")
         age_lower_limit=input("Enter age lower range: ")
         employee_info=get_employee_by_age_range(age_upper_limit,age_lower_limit)
+        
         display_records(employee_info)
 
 
