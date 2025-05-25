@@ -77,6 +77,7 @@ def display_main_menu():
     elif option == '4':
         department=input("Enter Department: ")
         employee_info = get_employee_in_dept(department)
+        
         display_records(employee_info)
 
 
